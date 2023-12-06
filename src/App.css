@@ -1,10 +1,113 @@
-.App {
-  text-align: center;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header{
+margin-bottom: 20px;
+}
+main{
+  width: 100%;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container {
+  display: block;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+.widget-content,.newsContainerHeader, .exchangeContainer, header {
+  display: flex;
+  flex-direction: column;
+}
+.newsContainerHeader, .exchangeContainer, header {
+  flex-direction: row;
+}
+.exchangeDiff{
+  margin-right: 10px;
+  opacity: .7;
+}
+.article.rutube{
+  width: 50%;
+}
+a{
+  text-decoration: none;
+  color: #282c34;
+}
+.mainBanner{
+  display: inline-block;
+  width: 1000px;
+  height: 300px;
+}
+.newsTitle {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  opacity: .5;
+  color: blue;
+}
+.newsTitle.active {
+  opacity: 1;
+}
+.videoPrev {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.searchBarLogoImg{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.searchBarContainer, .searchBarBody{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
+}
+.searchBarBody{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+.weather{
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+
+}
+.weatherNow{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.weatherTemp{
+  font-size: large;
+  font-weight: bold;
+}
+.searchType{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.searchInput {
+  width: 80%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weatherContainer, .weatherNowImg{
+  width: 50px;
+  height: 50px;
+}
+footer article{
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+.mostVisitedList, TVList{
+  list-style-type: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
